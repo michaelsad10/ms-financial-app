@@ -11,7 +11,7 @@
 
 The project I created was one where users can enter in their expenses, taxes, investments. My web application would create graphs, pie charts, doughnut charts to display the information they entered to give a graphical idea. I used the API from alphavantage to get the prices of stocks over the past year.
 
-**IMPORTANT**: Since I am using heroku the servers go to sleep. You must first let [https://msad-api.herokuapp.com/](https://msad-api.herokuapp.com/) load as it is my backend allowing the web application to function. Once it is loaded you can signup for an account on [https://msfinancial-app-react.herokuapp.com/](https://msfinancial-app-react.herokuapp.com/). Also the API I am using for getting stocks only allows 5 requests per minute. So if the stock graphs don't appear it is because the key has timed out and you will have to wait a minute and refresh.  
+**IMPORTANT**: Since I am using heroku the servers go to sleep. You must first let [https://msad-api.herokuapp.com/](https://msad-api.herokuapp.com/) load as it is my backend allowing the web application to function. When it is done loading it should show a 404 Not Found which is correct. Once it is loaded you can signup for an account on [https://msfinancial-app-react.herokuapp.com/](https://msfinancial-app-react.herokuapp.com/). Also the API I am using for getting stocks only allows 5 requests per minute. So if the stock graphs don't appear it is because the key has timed out and you will have to wait a minute and refresh.  
 
 # 7
 
