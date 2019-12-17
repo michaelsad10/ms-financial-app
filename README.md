@@ -40,17 +40,25 @@ The project I created was one where users can enter in their expenses, taxes, in
 **VIEWS**
 
 **Login**: This a basic login page where you can enter the login information or click a link to signup 
+
 **SignUp**: This is a basic sign up page where it allows a user to enter information to sign up for a new account 
-**Investments**: This is a page that allows you to enter values and when you click the calculate button it will calculate the balance you would have. If the save button is clicked the information is stored in the database. It also has some graphs that show the stock prices over the last year of 4 companies. 
+
+**Investments**: This is a page that allows you to enter values and when you click the calculate button it will calculate the balance you would have. If the save button is clicked the information is stored in the database. It also has some graphs that show the stock prices over the last year of 4 companies.
+ 
 **Expenses**: This is a page that allows you to enter values of your expense. It has an automatically updating doughnut chart and when you click calculate it will generate a total amount. When you click save it will save and store all that information to the database. 
+
 **Taxes**: This is a page that allows you to enter values related to your taxes. It has a pie chart that will show the different percentages of how much tax is taken from the inputted amount. 
 
 
 # 9
 **TABLES**
+
 **User** : id*, username, password - Stores user information its id used to connect all the tables 
+
 **Taxes**: id*, income, federal, state, user_id(foreign key) - Stores the taxes information and is foreign keyed to the User id
+
 **Investments**: id*, principal, rate, years, balance, user_id(foreign key) - Stores the investments and is foreign keyed to the User id 
+
 **Expenses**:: id*, shopping, gas, food_drink, entertainment, bills, automotive, travel, total, user_id(foreign key) - Stores the expenses and is foreign keyed to the User id 
 
 
@@ -58,6 +66,9 @@ The project I created was one where users can enter in their expenses, taxes, in
 # 10
 **Resources**
 [https://material-ui.com/](https://material-ui.com/)
+
 [https://reactjs.org/](https://reactjs.org/)
+
 [https://flask-sqlalchemy.palletsprojects.com/en/2.x/](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
+
 [https://stackoverflow.com/](https://stackoverflow.com/)
