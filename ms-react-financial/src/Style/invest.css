@@ -1,0 +1,14 @@
+.paperTitle{
+    margin: auto;
+    width: 50%;
+    text-align: center !important;
+    margin-top: 30px !important;
+}
+
+.graphs {
+    margin: auto !important; 
+}
+
+.graph-container {
+    padding: 10px !important;
+}

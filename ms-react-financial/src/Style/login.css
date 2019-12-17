@@ -1,0 +1,18 @@
+.paper {
+    width: 25%;
+    height: 20% !important;
+    margin: auto;
+    margin-top: 100px; 
+    margin-bottom: 100px;
+    background-color: #d7eaf5 !important;
+}
+
+.grid-item {
+    margin: 0 auto !important;
+    padding: 15px !important; 
+    text-align: center;
+}
+
+.error {
+    color: red !important; 
+}

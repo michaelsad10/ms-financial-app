@@ -1,0 +1,22 @@
+#chart {
+    height: 200px; 
+    text-align: 'center';
+    background-color: blue;
+}
+
+#budget {
+    height: 300px; 
+    text-align: 'center';
+    background-color: green;
+}
+
+#root {
+    flex-grow: 1;
+}
+
+.paperExpense {
+    margin-top: 30px !important;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
